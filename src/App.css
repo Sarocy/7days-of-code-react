@@ -1,3 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;800&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit', sans-serif;
+  background-color: #030410; 
+  overflow-x: hidden; 
+  box-sizing: border-box;
+  line-height: 300%;
+  letter-spacing: 0%;
+}
 
 
+.App {
+  position: relative; 
+  max-width: 100%;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+/* Plano de fundo com os círculos */
+.background-blur {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; 
+  overflow: hidden;
+}
+
+/* Círculos borrados */
+.blur-circle {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(90px); 
+  opacity: 2.5;
+}
+
+/* Círculo superior esquerdo */
+.blur-top {
+  width: 30vw;
+  height: 30vw;
+  background-color: #7B7B7F; 
+  top: -300px; 
+  left: 20vw; 
+}
+
+/* Círculo inferior direito */
+.blur-right1 {
+  width: 28vw;
+  height: 28vw;
+  background-color: #8CC5CF; 
+  bottom: 5vh; 
+  right: -20vw; 
+}
 
