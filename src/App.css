@@ -52,7 +52,15 @@ body {
   width: 28vw;
   height: 28vw;
   background-color: #8CC5CF; 
-  bottom: 5vh; 
+  bottom: 60vh; 
   right: -20vw; 
+}
+
+.blur-left1 {
+  width: 28vw;
+  height: 28vw;
+  background-color: #7B7B7F; 
+  bottom: -10vh; 
+  right: 70vw; 
 }
 
