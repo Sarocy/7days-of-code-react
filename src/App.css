@@ -19,7 +19,6 @@ body {
   z-index: 1;
 }
 
-/* Plano de fundo com os círculos */
 .background-blur {
   position: absolute;
   top: 0;
@@ -30,7 +29,6 @@ body {
   overflow: hidden;
 }
 
-/* Círculos borrados */
 .blur-circle {
   position: absolute;
   border-radius: 50%;
@@ -38,7 +36,6 @@ body {
   opacity: 2.5;
 }
 
-/* Círculo superior esquerdo */
 .blur-top {
   width: 30vw;
   height: 30vw;
@@ -47,12 +44,11 @@ body {
   left: 20vw; 
 }
 
-/* Círculo inferior direito */
 .blur-right1 {
   width: 28vw;
   height: 28vw;
   background-color: #8CC5CF; 
-  bottom: 230vh; 
+  bottom: 290vh; 
   right: -20vw; 
 }
 
@@ -60,7 +56,7 @@ body {
   width: 28vw;
   height: 28vw;
   background-color: #7B7B7F; 
-  bottom: 140vh; 
+  bottom: 220vh; 
   right: 70vw; 
 }
 
@@ -68,7 +64,7 @@ body {
   width: 28vw;
   height: 28vw;
   background-color: #2F1A41; 
-  bottom: 15vh; 
+  bottom: 110vh; 
   right: -15vw; 
 }
 
@@ -76,6 +72,6 @@ body {
   width: 28vw;
   height: 28vw;
   background-color: #A07EB9; 
-  bottom: 15vh; 
+  bottom: 110vh; 
   right: 90vw; 
 }

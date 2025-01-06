@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import MainSection from "./components/MainSection";
 import AboutSection from "./components/AboutSection";
 import RecipesSection from "./components/RecipesSection";
+import TestimonialsSection from "./components/TestimonialsSection";
 import './App.css';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <MainSection />
         <AboutSection />
         <RecipesSection />
+        <TestimonialsSection />
       </>
     </div>
   );
