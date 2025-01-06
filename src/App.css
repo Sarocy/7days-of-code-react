@@ -48,7 +48,7 @@ body {
   width: 28vw;
   height: 28vw;
   background-color: #8CC5CF; 
-  bottom: 290vh; 
+  bottom: 370vh; 
   right: -20vw; 
 }
 
@@ -56,7 +56,7 @@ body {
   width: 28vw;
   height: 28vw;
   background-color: #7B7B7F; 
-  bottom: 220vh; 
+  bottom: 300vh; 
   right: 70vw; 
 }
 
@@ -64,7 +64,7 @@ body {
   width: 28vw;
   height: 28vw;
   background-color: #2F1A41; 
-  bottom: 110vh; 
+  bottom: 190vh; 
   right: -15vw; 
 }
 
@@ -72,6 +72,6 @@ body {
   width: 28vw;
   height: 28vw;
   background-color: #A07EB9; 
-  bottom: 110vh; 
+  bottom: 190vh; 
   right: 90vw; 
 }
