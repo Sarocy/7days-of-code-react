@@ -52,7 +52,7 @@ body {
   width: 28vw;
   height: 28vw;
   background-color: #8CC5CF; 
-  bottom: 60vh; 
+  bottom: 230vh; 
   right: -20vw; 
 }
 
@@ -60,7 +60,22 @@ body {
   width: 28vw;
   height: 28vw;
   background-color: #7B7B7F; 
-  bottom: -10vh; 
+  bottom: 140vh; 
   right: 70vw; 
 }
 
+.blur-right2{
+  width: 28vw;
+  height: 28vw;
+  background-color: #2F1A41; 
+  bottom: 15vh; 
+  right: -15vw; 
+}
+
+.blur-left2{
+  width: 28vw;
+  height: 28vw;
+  background-color: #A07EB9; 
+  bottom: 15vh; 
+  right: 90vw; 
+}
