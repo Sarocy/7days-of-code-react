@@ -1,0 +1,121 @@
+.recipe-page {
+    font-family: "Outfit", sans-serif;
+    color: #cecdcd;
+    padding: 2rem;
+  }
+  
+  .recipe-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    position: relative;
+  }
+  
+  .recipe-info {
+    flex: 1;
+    z-index: 1;
+  }
+  
+  .recipe-special {
+    font-size: 1rem;
+    color: #ff7a59;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+  
+  .recipe-title {
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .recipe-description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    color: #555555;
+  }
+  
+  
+  /* Imagem da receita */
+  .recipe-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .recipe-image img {
+    width: 80%;
+    max-width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Fundo estilizado */
+  .recipe-header::before {
+    content: "";
+    position: absolute;
+    top: -50px;
+    right: -100px;
+    width: 300px;
+    height: 300px;
+    background-color: #ffcc70;
+    border-radius: 50%;
+    z-index: 0;
+    opacity: 0.5;
+  }
+  
+  .recipe-header::after {
+    content: "";
+    position: absolute;
+    bottom: -50px;
+    left: -50px;
+    width: 200px;
+    height: 200px;
+    background-color: #ff7a59;
+    border-radius: 50%;
+    z-index: 0;
+    opacity: 0.5;
+  }
+  
+  /* Passo a passo */
+  .recipe-steps h2 {
+    font-size: 1.8rem;
+    color: #030410;
+    margin-bottom: 1rem;
+  }
+  
+  .recipe-steps ul {
+    list-style: none;
+    counter-reset: step-counter;
+  }
+  
+  .recipe-steps li {
+    counter-increment: step-counter;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .recipe-steps li::before {
+    content: counter(step-counter);
+    background: #ff7a59;
+    color: #ffffff;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+  }
+  

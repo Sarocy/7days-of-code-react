@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../assets/styles/RecipesSection.css";
 
 const recipes = [
@@ -46,7 +47,9 @@ const RecipesSection = () => {
             </div>
             <div className="recipe-details">
               <h3>{recipe.name}</h3>
-              <button className="access-button">acessar</button>
+              <Link to={`/recipe/${recipe.id}`}>
+                <button className="access-button">Acessar</button>
+              </Link>
             </div>
           </div>
         ))}
