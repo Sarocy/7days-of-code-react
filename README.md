@@ -1,6 +1,6 @@
 # 7 Days of Code: React 🥗🍿🎥
 
-## 💻 Dia 02: Criação da Primeira Sessão da Página
+## 💻 Dia 02: Criação da Primeira Seção da Página
 
 ### 🚀 O Desafio de Hoje
 
