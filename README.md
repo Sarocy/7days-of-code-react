@@ -1,57 +1,57 @@
 # 7 Days of Code: React 🥗🍿🎥
 
-## 💻 Dia 07: Adicionando a Funcionalidade de Navegação
+**Cook The Classics** - Projeto do 7 Days of Code com React, na plataforma da Alura.
 
-### 🚀 O Desafio de Hoje
+## 📜 Descrição
 
-No sétimo e último dia do desafio, finalizamos o projeto ao adicionar funcionalidade de navegação entre páginas usando o **React Router**. Aqui implementamos uma página detalhada para cada receita, permitindo que os usuários vejam as instruções de preparo por meio das seguintes ações:
-### 1. Implementação do React Router
-Instalamos o **React Router** para gerenciar a navegação entre páginas:
-  ```bash
-  npm install react-router-dom
-  ```
-
-Configuramos o roteamento no arquivo `App.js`:
-  - A rota `/` exibe a página inicial com todas as seções (Main, About, Recipes, Testimonials).
-  - A rota `/recipe/:id` exibe a página detalhada de cada receita.
-
-### 2. Criação da Página de Receita (RecipePage)
-Criamos o componente **RecipePage** que exibe o título, descrição e imagem da receita, além de uma lista de etapas detalhadas do preparo.
-
-### 3. Atualização do RecipesSection
-Adicionamos links em cada card de receita usando o componente `Link` do React Router, permitindo que o usuário navegue para a página detalhada ao clicar no botão "Acessar".
+O projeto **"Cook The Classics"** é uma aplicação desenvolvida ao longo de sete dias com o objetivo de criar um site completo utilizando React. O site apresenta receitas inspiradas em pratos icônicos de filmes e séries, com seções dinâmicas e funcionais, como depoimentos, contatos e uma página detalhada para cada receita. Durante o desafio, abordamos conceitos introdutórios fundamentais de React, como componentização, roteamento, e estilização com CSS.
 
 
-### 4. Estrutura do Projeto
-Atualizamos a estrutura de pastas para incluir o componente de navegação e a página de receitas:
-  ```
-  src/
-  ├── assets/
-  │   ├── images/
-  │   ├── styles/
-  │       ├── AboutSection.css
-  │       ├── Footer.css
-  │       ├── Header.css
-  │       ├── MainSection.css
-  │       ├── RecipesSection.css
-  │       ├── TestimonialsSection.css
-  │       └── RecipePage.css
-  ├── components/
-  │   ├── AboutSection.js
-  │   ├── Footer.js
-  │   ├── Header.js
-  │   ├── MainSection.js
-  │   ├── RecipesSection.js
-  │   └── TestimonialsSection.js
-  ├── pages/
-  │   └── RecipePage.js
-  ├── App.css
-  ├── App.js
-  └── index.js
-  ```
+## 📆 Estrutura
 
+Cada branch deste repositório contém o código para um dia específico do desafio:
 
+- **day-01**: Configurações Iniciais do Projeto
+- **day-02**: Criação da Primeira Seção da Página
+- **day-03**: Criação da Segunda Seção da Página
+- **day-04**: Criação da Terceira Seção da Página
+- **day-05**: Criação da Quarta Seção da Página
+- **day-06**: Criação da Quinta Seção da Página
+- **day-07**: Adicionando a Funcionalidade de Navegação
 
-## Resultado Esperado
+## 📚 Tecnologias Utilizadas
+
+<img height="30" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"> <img height="30" src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white"> <img height="30" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img height="30" src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img height="30" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"> <img height="30" src="https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&logo=npm&logoColor=white"> <img height="30" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
+
+## 🤷🏿‍♀️ Como Usar
+
+1. Clone o repositório na sua máquina local:
+   ```bash
+   git clone https://github.com/usuario/7days-of-code-react.git
+   ```
+
+2. Troque para a branch desejada:
+   ```bash
+   git checkout day-01
+   # ou
+   git checkout day-02
+   # e assim por diante
+   ```
+
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
+
+4. Execute o projeto:
+   ```bash
+   npm start
+   ```
+
+5. Acesse o projeto no navegador em: `http://localhost:3000`.
+
+## 🎥 Demonstração
+
+Veja a conclusão do projeto completo:
 
 
