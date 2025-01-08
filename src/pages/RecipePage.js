@@ -104,19 +104,17 @@ const recipesData = {
   
     return (
       <div className="recipe-page">
-        {/* Cabeçalho do RecipePage */}
         <div className="recipe-header">
           <div className="recipe-info">
             <h2 className="recipe-special">Chef's Special</h2>
             <h1 className="recipe-title">{recipe.title}</h1>
             <p className="recipe-description">{recipe.description}</p>
           </div>
-          <div className="recipe-image">
+          <div className="recipePage-image">
             <img src={require(`../assets/images/${recipe.image}`)} alt={recipe.title} />
           </div>
         </div>
   
-        {/* Passo a passo */}
         <div className="recipe-steps">
           <h2>Modo de Preparo</h2>
           <ul>

@@ -23,7 +23,9 @@
 .recipe-card {
   background: #190F29;
   border-radius: 20px;
-  padding: 2px;
+  padding: 60px 10px 30px ; 
+  padding-top: 60px; 
+  margin-bottom: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   text-align: center;
@@ -38,8 +40,8 @@
 }
 
 .recipe-image {
-  position: absolute;
-  top: -40px; 
+  position: relative;
+  top: -90px; 
   left: 50%; 
   transform: translateX(-50%); 
 }
@@ -50,16 +52,7 @@
   padding: 5px;
 }
 
-.recipe-card {
-  position: relative; 
-  background: #190F29; 
-  border-radius: 20px; 
-  padding-top: 60px; 
-  padding: 60px 10px 30px ; 
-  text-align: center; 
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  margin-bottom: 20px;
-}
+
 
 .recipe-details {
   display: flex;
@@ -74,6 +67,7 @@
   color: #ffffff; 
   line-height: 100%;
   width: 80%;
+  margin-top: -100px;
 }
 
 .access-button {
