@@ -54,4 +54,4 @@ Cada branch deste repositório contém o código para um dia específico do desa
 
 Veja a conclusão do projeto completo:
 
-
+![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExam15eDJ0d2tscnpxbDJ3ZmkyamliZGsyYXV6NXIwZHNrMzdpM2E5ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CeKEBntgXYL7WyaU7y/giphy.gif)
