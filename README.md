@@ -54,4 +54,4 @@ Atualizamos a estrutura de pastas para incluir o componente de navegação e a p
 
 ## Resultado Esperado
 
-
+![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjRkbmJleDhwZGZuMDU2ZGM2eDAxamJmMzV5eDNzajI4dm5wbnZpZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CeKEBntgXYL7WyaU7y/giphy.gif)
