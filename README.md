@@ -27,7 +27,7 @@ Cada branch deste repositório contém o código para um dia específico do desa
 
 1. Clone o repositório na sua máquina local:
    ```bash
-   git clone https://github.com/usuario/7days-of-code-react.git
+   git clone https://github.com/Sarocy/7days-of-code-react.git
    ```
 
 2. Troque para a branch desejada:
