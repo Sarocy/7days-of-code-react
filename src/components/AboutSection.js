@@ -4,7 +4,7 @@ import moviesImage from "../assets/images/filmes.png";
 
 const AboutSection = () => {
   return (
-    <section className="about-section">
+    <section  id="sobre" className="about-section">
 
       <div className="image-container">
         <img src={moviesImage} alt="Galeria de cenas" />

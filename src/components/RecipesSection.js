@@ -37,7 +37,7 @@ const recipes = [
 
 const RecipesSection = () => {
   return (
-    <section className="recipes-section">
+    <section id="recipes-section" className="recipes-section">
       <h2 className="section-title">Receitas</h2>
       <div className="recipes-container">
         {recipes.map((recipe) => (

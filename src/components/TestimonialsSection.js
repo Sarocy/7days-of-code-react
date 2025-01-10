@@ -5,7 +5,7 @@ import estrelas from "../assets/images/estrelas.png";
 
 const TestimonialsSection = () => {
   return (
-    <section className="testimonials-section">
+    <section id="depoimentos" className="testimonials-section">
       <h2 className="section-title">Depoimentos</h2>
 
       <div className="testimonials-content">
